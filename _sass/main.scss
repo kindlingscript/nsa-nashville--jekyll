@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+$blue: #558be0;
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#info--top {
+  background: rgb(29,137,253);
+  background: linear-gradient(90deg, rgba(29,137,253,1) 5%, rgba(69,197,252,1) 100%); 
+  padding: 9rem;
+  transform: rotate(-3deg) skew(-3deg);
+
+  h1 {
+    color: white;
+    text-align: center;
+    transform: rotate(3deg) skew(3deg);
+  }
+}
+
+#info--middle {
+  display: flex;
+  justify-content: center;
+  margin: 7rem auto;
+}
+
+#left {
+  padding-left: 5rem;
+  font-size: 1.3rem;
+  padding-right: 10rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#right {
+  padding-right: 5rem;
+  padding-left: 2rem;
+}
+
+/***************************/
+/**** -- Link Styles -- ****/
+/***************************/
+
+nav {
+  margin: 2rem 2rem 2rem 3.5rem;
+  text-align: center;
+}
+
+.current {
+  color: rgba(29,137,253,1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link,
+.link--white {
+  color: skyblue;
+}
+
+.link--white {
+  display: inline-block;
+  transform: rotate(-3deg) skew(-3deg);
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+.link:visited {
+  color: black;
+}
+
+.link--white:visited {
+  color: white;
+}
+
+/***************************/
+/**** -- Post Styles -- ****/
+/***************************/
+
+ul {
+  display: flex;
+  margin: 6rem;
+
+  li {
+    list-style-type: none;
+    width: 33.3%;
+  }
+}
+
+.blog--container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post--single {
+  margin: 7rem 7rem 7rem 17rem;
+}
+
+.post--content {
+  margin-right: 10rem;
+}
+
+/******************************/
+/**** -- Footer Styles -- ****/
+/*****************************/
+
+footer {
+  background: rgb(29,137,253);
+  background: linear-gradient(90deg, rgba(29,137,253,1) 5%, rgba(69,197,252,1) 100%);
+  padding: 5rem; 
+  text-align: center;
+  transform: rotate(3deg) skew(3deg);
+
+  h2 {
+    color: white;
+    font-weight: 100;
+    transform: rotate(-3deg) skew(-3deg);
+  }
+
+  .cursive {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+  }
+}
+
+.copyright {
+  text-align: center;
+  margin: 2rem 0;
+}

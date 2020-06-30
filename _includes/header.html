@@ -1,0 +1,7 @@
+<section id="info--top">
+  {% for item in site.data.header  %}
+    {% if page.url == item.link %}
+      <h1>{{ item.name }}</h1>
+    {% endif %}
+  {% endfor %}
+</section>
